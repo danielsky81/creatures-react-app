@@ -26,6 +26,7 @@ class App extends Component {
         const filterCreatures = creatures.filter(creature => creature.name.toLowerCase().includes(searchField.toLowerCase()))
         return (
             <div className="App">
+            <h1>Robots Universum</h1>
                 <SearchBox
                     placeholder="search creatures"
                     handleChange={this.handleChange}
